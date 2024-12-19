@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in React applications involving the use of `setInterval` without properly clearing it. The `bug.js` file shows the incorrect implementation, which leads to a memory leak because the interval continues indefinitely. The `bugSolution.js` file presents the corrected code, demonstrating how to use `clearInterval` to prevent memory leaks.
